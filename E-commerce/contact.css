@@ -1,0 +1,206 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: rgb(246, 201, 143);
+    box-shadow: 0 0 0.6rem rgba(246, 201, 143,1.8);
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:999;
+    height:10vh;
+
+    
+}
+
+#header img{
+    height:8vh;
+    width:10vh;
+    border-radius:70px;
+    margin-bottom:5px;   
+}
+
+.head{
+    position:relative;
+   
+}
+
+.head a{
+    font-size:1.3rem;
+    padding-left: 40px;
+    transition: 2ms ease;
+    text-decoration:none;
+    color: black;
+    
+}
+
+.head a:hover,
+.head a.active{
+    color:rgb(216, 97, 0);;
+}
+
+/*contact*/
+
+.contact-sec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:90vh;
+    margin:30px 150px;
+    border-radius: 10px;;
+    background-size:cover;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 .3rem rgba(0,0,0,0.6);
+    
+}
+
+
+
+.contactus-sec{
+    font-size:20px;
+    line-height:50px;
+    border-radius: 10px;;
+    padding:15px 20px;
+    box-shadow: 0 0 .3rem rgba(0,0,0,0.6);
+    
+}
+.contactus-sec:hover{
+    box-shadow: 0 0 .6rem rgba(0,0,0,0.6);
+}
+.contactus-sec:hover i{
+    color:rgb(62, 73, 1);
+}
+.contactus-sec p{
+    font-size: 30px;
+    margin-bottom:40px;
+    font-weight: bold;
+}
+.contactus-sec i{
+    color:rgb(241, 135, 14);
+    margin-right:10px;
+}
+
+.form{
+    font-size:15px;
+    padding:10px 10px;
+    font-weight: bold;
+    color:black;
+   
+
+
+}
+.form input{
+    padding:10px 10px;
+    width:50vh;
+    font-size:13px;
+    margin-bottom:20px;
+    border:none;
+    border-bottom: 2px solid black;
+    background-color: transparent; 
+    
+     
+}
+
+.form .msg{
+    height:10vh;
+}
+.form button{
+    width:53.5vh;
+    padding:10px 10px;
+    font-size:15px;
+    background-color: rgb(241, 135, 14);
+    color: white;
+    border-radius: 20px;;
+}
+
+
+
+
+/*footer*/
+
+.ft{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:10vh;
+    padding:10px 15px;
+    background-color:rgb(1, 5, 19);
+
+}
+
+.tagline span{
+    font-size:20px;
+    color:white;
+    
+}
+.tagline p{
+    font-size:16px;
+    color: white;
+    margin-top: 10px;;
+}
+
+.email{
+    background-color: white;
+}
+
+.email input,button{
+    font-size:15px;
+    padding: 10px 15px;
+    border:none;
+
+}
+.email button{
+    background-color:orange;
+    margin-left:-3px;
+}
+.email button:hover{
+    background-color: orangered;
+}
+
+
+.last-section{
+    padding: 10px 100px 10px 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    background-color:rgb(12, 5, 37) ;
+    height:40vh;
+    
+}
+
+.two span{
+    font-size:30px;
+    color:rgb(153, 151, 148);
+    text-decoration: underline;
+    
+    
+}
+.two p{
+    line-height:30px;
+}
+.two i{
+    font-size:20px;
+    margin-right:10px;
+    margin-top:15px;
+    color:rgb(80, 150, 230);
+}
+.two i:hover{
+    color:rgb(1, 20, 85);
+}
+
+footer{
+    height:5vh;
+    text-align: center;
+    padding-top:20px;
+    font-size:14px;
+    background-color:rgb(1, 5, 19) ;
+    color: white;
+}

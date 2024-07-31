@@ -1,0 +1,233 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: rgb(246, 201, 143);
+    box-shadow: 0 0 0.6rem rgba(246, 201, 143,1.8);
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:999;
+    height:10vh;
+
+    
+}
+
+#header img{
+    height:8vh;
+    width:10vh;
+    border-radius:70px;
+    margin-bottom:5px; 
+    margin-top:5px;  
+}
+
+.head{
+    position:relative;
+   
+}
+
+.head a{
+    font-size:1.3rem;
+    padding-left: 40px;
+    transition: 2ms ease;
+    text-decoration:none;
+    color:black;
+    
+}
+
+.head a:hover,
+.head a.active{
+    color:rgb(216, 97, 0);;
+}
+
+
+/*main*/
+#main{
+    background-image: url("images/shop.jpg");
+    background-size:cover; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    padding:150px 100px;
+  
+}
+
+#main p{
+    font-weight:bold;
+    font-size:3rem;
+    color: rgb(99, 54, 54);
+    margin-left:-10px
+
+}
+#main span{
+    font-weight:bold;
+    font-size:2rem;
+    color: rgb(99, 54, 54);
+    margin-top:20px;
+    
+
+}
+
+
+
+/*products*/
+
+#main-sec {
+    text-align: center;
+    padding-top:30px;
+    font-size:3rem;
+    margin:40px 40px 60px 40px;
+    box-shadow: 0 0 0.6rem rgba(209, 191, 163, 0.9);
+    color: rgb(58, 3, 37);
+   
+}
+
+.product{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding:30px 30px;
+    
+}
+.pro{
+    margin:20px 20px;
+    padding:10px 15px;
+    border-radius: 8px;
+    position:relative;
+    height:383px;
+    width:231px;
+    box-shadow: 0 0 0.8rem rgba(209, 191, 163, 0.9);
+    cursor: pointer;
+}
+
+.pro:hover{
+    box-shadow: 0 0 0.4rem rgb(77, 70, 70);
+    height:385px;
+    width:232px;
+}
+.pro img{
+    border-radius:10px;
+    height:70%;
+    width:100%;
+}
+.pro .cart{
+    position:absolute;
+    bottom:15px;
+    left:210px;
+    font-size:18px;
+    background-color: rgb(212, 133, 14);
+    padding:10px 10px 10px 10px;;
+    border-radius:50%;
+    text-align: center;
+    color: white;
+}
+.pro:hover .cart{
+    background-color: rgb(224, 226, 70);
+}
+.desp{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.desp p{
+    font-size:20px;
+    color:black;
+    
+}
+.desp i{
+    font-size: 15px;
+    color:orange;
+}
+
+
+
+/*footer*/
+
+.ft{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:10vh;
+    padding:10px 15px;
+    background-color:rgb(1, 5, 19);
+
+}
+
+.tagline span{
+    font-size:20px;
+    color:white;
+    
+}
+.tagline p{
+    font-size:16px;
+    color: white;
+    margin-top: 10px;;
+}
+
+.email{
+    background-color: white;
+}
+
+.email input,button{
+    font-size:15px;
+    padding: 10px 15px;
+    border:none;
+
+}
+.email button{
+    background-color:orange;
+    margin-left:-3px;
+}
+.email button:hover{
+    background-color: orangered;
+}
+
+
+.last-section{
+    padding: 10px 100px 10px 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    background-color:rgb(12, 5, 37) ;
+    height:40vh;
+    
+}
+
+.two span{
+    font-size:30px;
+    color:rgb(153, 151, 148);
+    text-decoration: underline;
+    
+    
+}
+.two p{
+    line-height:30px;
+}
+.two i{
+    font-size:20px;
+    margin-right:10px;
+    margin-top:15px;
+    color:rgb(80, 150, 230);
+}
+.two i:hover{
+    color:rgb(1, 20, 85);
+}
+
+footer{
+    height:5vh;
+    text-align: center;
+    padding-top:20px;
+    font-size:14px;
+    background-color:rgb(1, 5, 19) ;
+    color: white;
+}

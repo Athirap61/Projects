@@ -1,0 +1,190 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: rgb(246, 201, 143);
+    box-shadow: 0 0 0.6rem rgba(246, 201, 143,1.8);
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:999;
+    height:10vh;
+
+    
+}
+
+#header img{
+    height:8vh;
+    width:10vh;
+    border-radius:70px;
+    margin-bottom:5px; 
+    margin-top:5px;  
+}
+
+.head{
+    position:relative;
+   
+}
+
+.head a{
+    font-size:1.3rem;
+    padding-left: 40px;
+    transition: 2ms ease;
+    text-decoration:none;
+    color: black;
+    
+}
+
+.head a:hover,
+.head a.active{
+    color:rgb(216, 97, 0);
+}
+
+/*main*/
+#main{
+    background-image: url("images/about.jpg");
+    background-size:cover; 
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding:130px 100px;
+  
+}
+
+#main p{
+    font-weight:bold;
+    font-size:3rem;
+    color: rgb(61, 14, 14);
+    margin-left:-10px
+
+}
+#main span{
+    font-weight:bold;
+    font-size:2rem;
+    color: rgb(99, 54, 54);
+    margin-top:20px;
+}
+
+
+
+/*about */
+.about-sec{
+    display: flex;
+    padding:50px 50px;
+    margin:100px 100px;
+    background-color: rgb(231, 230, 229);
+    justify-content: space-evenly;
+    box-shadow: 0 0 0.3rem rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-sec:hover{
+    box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.6);
+    background-color:rgb(202, 201, 201) ;
+}
+
+.image{
+    margin-right:30px;
+}
+
+.image img{
+    height:60vh;
+    width:80vh;
+    border-radius:5px;
+}
+
+.desp p{
+    width:400px;
+    line-height:25px;
+    font-size:20px;
+    color: rgb(6, 6, 54);
+}
+/*footer*/
+.ft{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:10vh;
+    padding:10px 15px;
+    background-color:rgb(1, 5, 19);
+
+}
+
+.tagline span{
+    font-size:20px;
+    color:white;
+    
+}
+.tagline p{
+    font-size:16px;
+    color: white;
+    margin-top: 10px;;
+}
+
+.email{
+    background-color: white;
+}
+
+.email input,button{
+    font-size:15px;
+    padding: 10px 15px;
+    border:none;
+
+}
+.email button{
+    background-color:orange;
+    margin-left:-3px;
+}
+.email button:hover{
+    background-color: orangered;
+}
+
+
+.last-section{
+    padding: 10px 100px 10px 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    background-color:rgb(12, 5, 37) ;
+    height:40vh;
+    
+}
+
+.two span{
+    font-size:30px;
+    color:rgb(153, 151, 148);
+    text-decoration: underline;
+    
+    
+}
+.two p{
+    line-height:30px;
+}
+.two i{
+    font-size:20px;
+    margin-right:10px;
+    margin-top:15px;
+    color:rgb(80, 150, 230);
+}
+.two i:hover{
+    color:rgb(1, 20, 85);
+}
+
+footer{
+    height:5vh;
+    text-align: center;
+    padding-top:20px;
+    font-size:14px;
+    background-color:rgb(1, 5, 19) ;
+    color: white;
+}
