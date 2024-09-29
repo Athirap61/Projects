@@ -1,0 +1,296 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* color:white; */
+}
+body{
+    background-color: black;
+}
+
+
+.nav-bar{
+    height:10vh;
+    width:100%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content:space-evenly;
+    border:1px solid black;
+    position:sticky;
+    color:white;
+   
+}
+.anc{
+    text-decoration: none;
+    color: white;
+}
+.thispage{
+    color:rgb(246, 194, 110);
+}
+
+.logo{
+    height:6vh;
+    width:40vw;
+    font-size:30px;
+    text-align: center;
+}
+.items a{
+    font-size:1.4rem;
+    padding:20px;
+    font-weight: bold;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    border:1px solid black;
+    height:90vh;
+    width:50%;
+    background-color: rgb(16, 16, 16);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+span{
+    font-size:30px;
+}
+.left p{
+    font-size:20px;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+.left h1{
+    text-align: center;
+    padding:40px;
+     font-size:60px;
+}
+button{
+    font-size: 20px;
+    border:3px solid white;
+    background-color: transparent;
+    padding:12px 42px;
+    color: white;
+    margin-top:40px;
+
+}
+button:hover{
+    background-color: white;
+    color:black;
+}
+.right{
+    border:1px solid black;
+    height:90vh;
+    width:50%;
+    background-color:black;
+
+}
+.fourbox{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box i{
+    font-size:50px;
+    padding:10px 0px 20px 0px;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:150px;
+    width:20%;
+    border:2px solid transparent;
+    margin:150px 30px;
+    color:white;
+    padding:20px 40px 100px 40px;
+    font-size: 22px;
+    
+}
+.box:hover{
+    border:2px solid white ;
+    border-radius: 10px;
+}
+.box p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.third-section{
+    height:1450px;
+}
+.third-section h1,span{
+   text-align: center;
+   font-size:50px;
+   color:white;
+}
+.subsec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:40px;
+    flex-wrap: wrap;
+    row-gap:100px;
+    
+}
+.one{
+    height:60vh;
+    width:30%;
+    background-image: url(/images/pic1.webp);
+    text-align: center;
+    color:white;
+}
+.first{
+    height:60vh;
+    width:25%;
+    background-image: url(/images/photo.avif);
+    text-align: center;
+    color:white;
+}
+.first p,h3{
+    font-size:27px;
+    margin-top:100px;
+}
+.one:hover{
+    transform: scale(1.05);
+}
+.one p,h3{
+    font-size:27px;
+    margin-top:100px;
+}
+.second{
+    height:60vh;
+    width:60%;
+    background-image: url(/images/hotel.avif);
+    background-size: cover;
+    color:white;
+    text-align:center;
+}
+.sec{
+    height:60vh;
+    width:25%;
+    background-image: url(/images/photo1.avif);
+    background-size: cover;
+    color:white;
+    text-align:center;
+}
+.sec p,h3{
+    font-size:27px;
+    margin-top:280px;
+}
+.third{
+    height:60vh;
+    width:25%;
+    background-image: url(/images/food.avif);
+    background-size: cover;
+    color:white;
+    text-align:center;
+}
+.third p,h3{
+    font-size:27px;
+    margin-top:100px;
+}
+.second h3{
+    font-size:40px;
+    margin-top:150px;
+}
+.second p{
+    font-size:25px;
+    margin-top:30px;
+}
+.second:hover{
+    transform: scale(1.05);
+}
+.sec:hover{
+    transform: scale(1.05);
+}
+.third:hover{
+    transform: scale(1.05);
+}
+.first:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+.footer{
+    border-top: 1px solid grey;
+    height:40vh;
+     background-color: rgb(7, 6, 6); 
+     
+ }
+ .copyright{
+     color:white;
+     text-align: center;
+     font-size: 20px;
+     padding: 30px;
+     margin-top:20px;
+     background-color: rgb(13, 12, 12); 
+ }
+ .side{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+ 
+ }
+ .side{
+     font-size: 20px;
+ }
+ .address{
+     color:white;
+     font-size:23px;
+     padding:50px;
+     height:150px;
+     width:20%;
+     margin:20px;
+     text-align: center;
+     
+ }
+ .address p{
+     font-size:19px;
+ }
+ .address h4{
+     font-size: 28px;
+     margin-bottom: 20px;
+ }
+ .foot{
+     display: flex;
+     justify-content: space-around;
+     color:white;
+ }
+ .side-two{
+     text-align: center;
+     margin: 60px;
+ }
+ .side-two p{
+     font-size:28px;
+     margin-top:20px;
+  
+ }
+ .btn button{
+     height:50px;
+     width:100px;
+     font-size:15px;
+     border:1px solid white;
+     border-radius:5px;
+     padding:0px;
+ }
+ .btn input{ 
+     height:50px;
+     width:300px;
+     border-radius:5px;
+     border:none;
+     font-size:15px;
+ 
+ }

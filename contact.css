@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: black;
+  }
+  .thispage{
+    color:rgb(246, 194, 110);
+  }
+  
+  
+  .nav-bar{
+    height:10vh;
+    width:100%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content:space-evenly;
+    border:1px solid black;
+    position:sticky;
+    color:white;
+   
+  }
+  
+  .logo{
+    height:6vh;
+    width:40vw;
+    font-size:30px;
+    text-align: center;
+  }
+  .items a{
+    font-size:1.4rem;
+    padding:20px;
+    font-weight: bold;
+  }
+  .anc{
+    text-decoration: none;
+    color: white;
+  }
+  
+.contact{
+    margin:100px auto;
+    height: 75vh;
+    width:90%;
+    color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+}  
+.contact h1{
+    font-size:45px;
+    margin:30px;
+    color:rgb(230, 137, 24);
+    font-weight: bold;
+}
+.para p{
+  font-size: 30px;
+
+}
+.icon{
+  font-size:30px;
+  margin-top:45px;
+  color:rgb(147, 189, 231);
+}
+.icon i{
+  margin-left:20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin: 40px;
+    border:none;
+    border-radius: 8px;
+    width:40%;
+    height:600px;
+    
+   
+}
+.para{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:600px;
+  width:40%;
+  flex-direction: column;
+
+}
+.form input,textarea{
+    font-size: 15px;
+    height:40px;
+    width:80%;
+    margin:15px;
+}
+.form textarea{
+    font-size: 15px;
+    height:80px;
+    width:80%;
+    margin:15px;
+}
+button{
+    height:40px;
+    width:120px;
+    margin:20px;
+    border-radius:10px;
+    background-color: rgb(240, 176, 1);
+    border:none;
+    font-size:15px;
+    font-weight: bold;
+    color:white;
+}
+button:hover{
+  background-color: rgb(29, 85, 25);
+}

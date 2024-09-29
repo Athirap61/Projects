@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* color:white; */
+}
+body{
+    background-color: black;
+    background-image: url(/images/bb.avif);
+    background-size: cover;
+}
+
+
+.nav-bar{
+    height:10vh;
+    width:100%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content:space-evenly;
+    border:1px solid black;
+    position:sticky;
+    color:white;
+   
+}
+.anc{
+    text-decoration: none;
+    color: white;
+}
+.thispage{
+    color:rgb(246, 194, 110);
+}
+
+.logo{
+    height:6vh;
+    width:40vw;
+    font-size:30px;
+    text-align: center;
+}
+.items a{
+    font-size:1.4rem;
+    padding:20px;
+    font-weight: bold;
+}
+.abt{
+    height: 50vh;
+    width: 60%;
+    text-align: center;
+    border:1px solid white;
+    color: white;
+    margin: 100px auto;
+    border-radius:10px;
+    background-color: black;
+}
+.abt h1{
+    margin: 40px;
+    font-size:50px;
+}
+.abt p{
+    font-size: 25px;
+    margin:15px;
+}
+.abt:hover{
+    border:1px solid grey;
+    background-color:transparent;
+}
